@@ -1,0 +1,59 @@
+#content{
+	width: 888px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 25px;
+    padding: 40px;
+}
+#imageright{
+	margin-left: 20px;
+    float: right;
+    width: 30%;
+    border-radius: 15px;
+    border: darkgreen 1px solid;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(214, 201, 127, 0.507);
+}
+#imageleft{
+	margin-bottom: 80px;
+    margin-right: 40px;
+    float: left;
+    width: 30%;
+    border-radius: 15px;
+    border: darkgreen 1px solid;
+    text-align: center;
+    font-style: italic;
+    background-color: rgba(214, 201, 127, 0.507);
+}
+.kepszoveg{
+	font-style: italic;
+    font-weight: 700;
+    text-align: center;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    text-transform: uppercase;
+
+    color: darkgreen;
+}
+p, ul, ol{
+    display: block;
+}
+a, a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+body{
+    background-color:darkgreen;
+}
+#kepnek{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius:  15px 15px 0px 0px;
+    border: darkgreen 1px solid;
+}
