@@ -1,0 +1,51 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(211, 200, 200, 0.89);
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    min-width: 50%;
+    margin: 25%;
+    margin-top: 10%;
+
+}
+button{
+    background-color: rgb(1, 141, 255);
+    color: white;
+}
+h1, p, input[type='date'], button, label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type='date']{
+    width: 35%;
+    margin: 10px 32.5%;
+    padding: 0;
+    height: 30px;
+}
+button{
+    width: 15%;
+    margin: 10px 42.5%;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 0.9em;
+}
+h1{
+    font-size: 35px;
+}
+label{
+    font-size: 20px;
+    font-weight: 700;
+}
+p{
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 0;
+}
+div{
+    border-radius: 5px;
+    
+}
